@@ -5,11 +5,12 @@ body{
 }
 .flexible-container{
     display: flex;
+    margin-bottom: 50px;
 }
 .intro-half{
-    display: 50%;
-    margin-left: 10%;
-    
+    width: 40%;
+    padding-left: 10%;
+    padding-top: 5%;
 }
 .intro-half img{
     width: 90%;
@@ -26,7 +27,7 @@ h1{
     border-image-slice:1;
 }
 
-#mission{
+.h1-orange{
     color: orange;
 }
 .button{
@@ -36,4 +37,29 @@ h1{
     padding: 10px 20px;
     text-align: center;
     border-radius: 5px;
+}
+.make-margin{
+    margin: 10%;
+}
+#alignment{
+    text-align: center;
+}
+.one-third{
+    width: 30%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 5px;
+
+}
+.one-third img{
+    width: 50%;
+}
+#one-third-1{
+    background-color: aquamarine;
+}
+#one-third-2{
+    background-color: antiquewhite; 
+}
+#one-third-3{
+    background-color: darkkhaki;
 }
