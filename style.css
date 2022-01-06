@@ -34,14 +34,14 @@ h1{
     text-decoration: none;
     background-color: #f44336;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 20px;
     text-align: center;
     border-radius: 5px;
 }
 .make-margin{
     margin: 10%;
 }
-#alignment{
+.alignment{
     text-align: center;
 }
 .one-third{
@@ -63,6 +63,20 @@ h1{
 #one-third-3{
     background-color: darkkhaki;
 }
-#banner{
-    background-image: url(images/shape-5.png);
+.feedback-form{
+    border: 2px solid orange;
+    padding-bottom: 5px;
+}
+.form{
+    width: 90%;
+    height: 80%;
+    padding: 5px;
+    
+}
+footer{
+    padding: 5px;
+    font-family:Courier New, monospace;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
